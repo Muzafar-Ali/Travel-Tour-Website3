@@ -9,7 +9,7 @@ import Testimonial from './components/Testimonial';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <ScrollToTp/>
       <Navbar/>
       <Hero/>
@@ -17,7 +17,7 @@ function App() {
       <Recommendation/>
       <Testimonial/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
