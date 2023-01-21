@@ -25,7 +25,7 @@ const Testimonial = () => {
         <div className="testimonial">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dolor facilis necessitatibus ab unde totam ea, 
-            veritatis est nostrum expedita iure assumenda cupiditate autem accusamus iste eum quod quasi ipsam?
+            veritatis est nostrum expedita iure assumenda
           </p>
           <div className="info">
             <img src={avatarImage} alt=''/>
@@ -37,8 +37,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonial">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dolor facilis necessitatibus ab unde totam ea, 
-            veritatis est nostrum expedita iure assumenda cupiditate autem accusamus iste eum quod quasi ipsam?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dolor facilis necessitatibus ab unde totam ea
           </p>
           <div className="info">
             <img src={avatarImage} alt=''/>
