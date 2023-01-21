@@ -94,7 +94,7 @@ const Recommendation = () => {
               <div className="info">
                 <div className="services">
                   <img src={info1} alt="" />
-                  <img src={info2} alt="" />
+                    <img src={info2} alt="" />
                   <img src={info3} alt="" />
                 </div>
                 <h4>{destination.cost}</h4>
