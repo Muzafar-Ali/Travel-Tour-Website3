@@ -4,7 +4,7 @@ import avatarImage from '../assets/avatarImage.jpg'
 
 const Testimonial = () => {
   return (
-    <Section>
+    <Section id="testimonials">
       <div className="title">
         <h2>Happy Customers</h2>
       </div> 

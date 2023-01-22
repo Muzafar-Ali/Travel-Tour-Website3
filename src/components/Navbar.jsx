@@ -15,10 +15,10 @@ const Navbar = () => {
           </div>
         </div>
         <ul>
-          <li><a href='#home'>Home</a></li>
-          <li><a href='#services'>Services</a></li>
-          <li><a href='#recommend'>Places</a></li>
-          <li><a href='#testimonials'>Testimonials</a></li>
+          <li> <a href='#hero'>Home</a> </li>
+          <li> <a href='#services'>Services</a> </li>
+          <li> <a href='#recommend'>Places</a> </li>
+          <li> <a href='#testimonials'>Testimonials</a> </li>
         </ul>
         <button>Connect</button>
       </Nav>
