@@ -6,7 +6,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 const Footer = () => {
   return (
     <FooterContainer>
-      <span>Copyright &copy; 2023 Travel. All rights reserved</span>
+      <span>Copyright &copy; 2023 Travel <sup>&reg;</sup> All rights reserved</span>
       <ul>
         <li> <a href='#hero'>Home</a> </li>
         <li> <a href='#services'>Services</a> </li>
