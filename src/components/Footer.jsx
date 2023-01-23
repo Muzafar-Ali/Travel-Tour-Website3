@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import styled from 'styled-components'
 import {BsLinkedin, BsFacebook, BsInstagram} from 'react-icons/bs'
 import {AiFillInstagram} from 'react-icons/ai'
@@ -26,31 +26,40 @@ export default Footer
 
 const FooterContainer = styled.footer`
   display: flex;
-  justify-content:  space-evenly;
+  justify-content: space-evenly;
   background-color: #d0d8ff;
-  padding: 2.5rem;
   border-radius: 0.5rem;
-  ul{
+  padding: 2.5rem;
+  ul {
     display: flex;
     list-style-type: none;
     gap: 2rem;
-    li{
-      a{
+    li {
+      a {
         text-decoration: none;
         color: black;
         transition: 0.3s ease-in-out;
-        &:hover{
+        &:hover {
           color: #302ce9;
         }
       }
-      svg{
+      svg {
         font-size: 1.3rem;
         transition: 0.3s ease-in-out;
-        &:hover{
+        &:hover {
           color: #302ce9;
         }
       }
     }
-
   }
-`
+  @media screen and (min-width: 280px) and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 2rem;
+    ul {
+      flex-direction: column;
+    }
+    .social__links {
+      flex-direction: row;
+    }
+  }
+`;
