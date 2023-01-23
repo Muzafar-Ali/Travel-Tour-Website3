@@ -29,6 +29,7 @@ const Totop = styled.div`
    position: fixed;
    bottom: 1rem;
    right: 1rem;
+   z-index: 1;
 
    img{
     height: 2rem;
